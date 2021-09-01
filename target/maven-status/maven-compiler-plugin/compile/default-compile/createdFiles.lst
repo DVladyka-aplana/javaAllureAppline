@@ -1,0 +1,11 @@
+pages\InsurancePage.class
+steps\InsuranceSteps.class
+steps\TravelInsuranceSteps.class
+util\TestProperties.class
+pages\SetValuesTravelInsurancePage.class
+util\AllureListener.class
+pages\TravelInsurancePage.class
+steps\BaseSteps.class
+steps\MainSteps.class
+steps\SetValuesTravelInsuranceSteps.class
+pages\MainPage.class

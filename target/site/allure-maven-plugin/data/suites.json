@@ -1,0 +1,21 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Ex3Test",
+    "children" : [ {
+      "name" : "testInsurance",
+      "uid" : "154502aa0f67fb1a",
+      "parentUid" : "a023e11a204b070201691eece6134a13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1630527771749,
+        "stop" : 1630527923109,
+        "duration" : 151360
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "a023e11a204b070201691eece6134a13"
+  } ]
+}

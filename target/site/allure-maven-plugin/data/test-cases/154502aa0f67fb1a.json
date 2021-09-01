@@ -1,0 +1,845 @@
+{
+  "uid" : "154502aa0f67fb1a",
+  "name" : "testInsurance",
+  "fullName" : "Ex3Test.testInsurance",
+  "historyId" : "5007638e4cfb6fd306c95a685b21dd04",
+  "time" : {
+    "start" : 1630527771749,
+    "stop" : 1630527923109,
+    "duration" : 151360
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "<<<Проверка на наличие всплывающего сообщения Cookies>>>",
+      "time" : {
+        "start" : 1630527806976,
+        "stop" : 1630527810236,
+        "duration" : 3260
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "На главной панели нажать кнопку: Страхование",
+      "time" : {
+        "start" : 1630527810257,
+        "stop" : 1630527811702,
+        "duration" : 1445
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuItem",
+        "value" : "Страхование"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "В дочернем окне нажать на: Все страховые программы",
+      "time" : {
+        "start" : 1630527811705,
+        "stop" : 1630527824833,
+        "duration" : 13128
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "menuItem",
+        "value" : "Все страховые программы"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Выбрать из списка услуг: Страхование путешественников",
+      "time" : {
+        "start" : 1630527824855,
+        "stop" : 1630527827852,
+        "duration" : 2997
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "carouselItem",
+        "value" : "Страхование путешественников"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверка заголовка - Страхование путешественников",
+      "time" : {
+        "start" : 1630527827882,
+        "stop" : 1630527838215,
+        "duration" : 10333
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.xpath: //*[contains(text(),'Страхование путешественников')][contains(@class,'kitt-heading')]"
+      }, {
+        "name" : "seconds",
+        "value" : "10"
+      }, {
+        "name" : "exp",
+        "value" : "Страхование путешественников"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "<<<Проверка на наличие всплывающего сообщения Cookies>>>",
+      "time" : {
+        "start" : 1630527838217,
+        "stop" : 1630527843259,
+        "duration" : 5042
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Нажать на кнопку: Оформить",
+      "time" : {
+        "start" : 1630527843260,
+        "stop" : 1630527843573,
+        "duration" : 313
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    }, {
+      "name" : "Проверка заголовка - Страхование путешественников",
+      "time" : {
+        "start" : 1630527843596,
+        "stop" : 1630527877009,
+        "duration" : 33413
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "by",
+        "value" : "By.xpath: //h2[contains(text(),'Страхование путешественников')]"
+      }, {
+        "name" : "seconds",
+        "value" : "10"
+      }, {
+        "name" : "exp",
+        "value" : "Страхование путешественников"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле Регион: Шенген и страны Совета Европы, кроме РФ",
+      "time" : {
+        "start" : 1630527877012,
+        "stop" : 1630527879326,
+        "duration" : 2314
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "regionValue",
+        "value" : "Шенген и страны Совета Европы, кроме РФ"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Установить объем страховки (минимальная/максимальная): Минимальная",
+      "time" : {
+        "start" : 1630527879328,
+        "stop" : 1630527880813,
+        "duration" : 1485
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "sumValue",
+        "value" : "Минимальная"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку: Оформить",
+      "time" : {
+        "start" : 1630527880815,
+        "stop" : 1630527887950,
+        "duration" : 7135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "buttonName",
+        "value" : "Оформить"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: ФамилияTo; Значение: Ivanov",
+      "time" : {
+        "start" : 1630527887952,
+        "stop" : 1630527891570,
+        "duration" : 3618
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "ФамилияTo"
+      }, {
+        "name" : "valueTo",
+        "value" : "Ivanov"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: ИмяTo; Значение: Ivan",
+      "time" : {
+        "start" : 1630527891571,
+        "stop" : 1630527894109,
+        "duration" : 2538
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "ИмяTo"
+      }, {
+        "name" : "valueTo",
+        "value" : "Ivan"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: ДрTo; Значение: 11.11.1991",
+      "time" : {
+        "start" : 1630527894111,
+        "stop" : 1630527896980,
+        "duration" : 2869
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "ДрTo"
+      }, {
+        "name" : "valueTo",
+        "value" : "11.11.1991"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: ФамилияFrom; Значение: Петров",
+      "time" : {
+        "start" : 1630527896982,
+        "stop" : 1630527900978,
+        "duration" : 3996
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "ФамилияFrom"
+      }, {
+        "name" : "valueTo",
+        "value" : "Петров"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: ИмяFrom; Значение: Петр",
+      "time" : {
+        "start" : 1630527900979,
+        "stop" : 1630527903559,
+        "duration" : 2580
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "ИмяFrom"
+      }, {
+        "name" : "valueTo",
+        "value" : "Петр"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: ОтчествоFrom; Значение: Петрович",
+      "time" : {
+        "start" : 1630527903561,
+        "stop" : 1630527906449,
+        "duration" : 2888
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "ОтчествоFrom"
+      }, {
+        "name" : "valueTo",
+        "value" : "Петрович"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: ДрFrom; Значение: 12.12.1990",
+      "time" : {
+        "start" : 1630527906451,
+        "stop" : 1630527909507,
+        "duration" : 3056
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "ДрFrom"
+      }, {
+        "name" : "valueTo",
+        "value" : "12.12.1990"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить пол клиента: Мужской",
+      "time" : {
+        "start" : 1630527909509,
+        "stop" : 1630527914660,
+        "duration" : 5151
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "femaleValue",
+        "value" : "Мужской"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: Паспорт серия; Значение: 1111",
+      "time" : {
+        "start" : 1630527914660,
+        "stop" : 1630527917726,
+        "duration" : 3066
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "Паспорт серия"
+      }, {
+        "name" : "valueTo",
+        "value" : "1111"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: Паспорт номер; Значение: 1111111",
+      "time" : {
+        "start" : 1630527917726,
+        "stop" : 1630527919143,
+        "duration" : 1417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "Паспорт номер"
+      }, {
+        "name" : "valueTo",
+        "value" : "1111111"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: Паспорт дата; Значение: 12.12.2011",
+      "time" : {
+        "start" : 1630527919143,
+        "stop" : 1630527920740,
+        "duration" : 1597
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "Паспорт дата"
+      }, {
+        "name" : "valueTo",
+        "value" : "12.12.2011"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Заполнить поле: Паспорт выдан; Значение: МФЦ",
+      "time" : {
+        "start" : 1630527920741,
+        "stop" : 1630527922259,
+        "duration" : 1518
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "cellTo",
+        "value" : "Паспорт выдан"
+      }, {
+        "name" : "valueTo",
+        "value" : "МФЦ"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: ФамилияTo; Ожидаемое значение: Ivanov",
+      "time" : {
+        "start" : 1630527922260,
+        "stop" : 1630527922306,
+        "duration" : 46
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "Ivanov"
+      }, {
+        "name" : "cellName",
+        "value" : "ФамилияTo"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: ИмяTo; Ожидаемое значение: Ivan",
+      "time" : {
+        "start" : 1630527922306,
+        "stop" : 1630527922334,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "Ivan"
+      }, {
+        "name" : "cellName",
+        "value" : "ИмяTo"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: ДрTo; Ожидаемое значение: 11.11.1991",
+      "time" : {
+        "start" : 1630527922334,
+        "stop" : 1630527922360,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "11.11.1991"
+      }, {
+        "name" : "cellName",
+        "value" : "ДрTo"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: ФамилияFrom; Ожидаемое значение: Петров",
+      "time" : {
+        "start" : 1630527922360,
+        "stop" : 1630527922386,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "Петров"
+      }, {
+        "name" : "cellName",
+        "value" : "ФамилияFrom"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: ИмяFrom; Ожидаемое значение: Петр",
+      "time" : {
+        "start" : 1630527922387,
+        "stop" : 1630527922409,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "Петр"
+      }, {
+        "name" : "cellName",
+        "value" : "ИмяFrom"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: ОтчествоFrom; Ожидаемое значение: Петрович",
+      "time" : {
+        "start" : 1630527922409,
+        "stop" : 1630527922430,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "Петрович"
+      }, {
+        "name" : "cellName",
+        "value" : "ОтчествоFrom"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: ДрFrom; Ожидаемое значение: 12.12.1990",
+      "time" : {
+        "start" : 1630527922431,
+        "stop" : 1630527922451,
+        "duration" : 20
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "12.12.1990"
+      }, {
+        "name" : "cellName",
+        "value" : "ДрFrom"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: Паспорт серия; Ожидаемое значение: 1111",
+      "time" : {
+        "start" : 1630527922451,
+        "stop" : 1630527922473,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "1111"
+      }, {
+        "name" : "cellName",
+        "value" : "Паспорт серия"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: Паспорт номер; Ожидаемое значение: 111111",
+      "time" : {
+        "start" : 1630527922473,
+        "stop" : 1630527922495,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "111111"
+      }, {
+        "name" : "cellName",
+        "value" : "Паспорт номер"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: Паспорт дата; Ожидаемое значение: 12.12.2011",
+      "time" : {
+        "start" : 1630527922495,
+        "stop" : 1630527922516,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "12.12.2011"
+      }, {
+        "name" : "cellName",
+        "value" : "Паспорт дата"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить поле: Паспорт выдан; Ожидаемое значение: МФЦ",
+      "time" : {
+        "start" : 1630527922516,
+        "stop" : 1630527922537,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitValue",
+        "value" : "МФЦ"
+      }, {
+        "name" : "cellName",
+        "value" : "Паспорт выдан"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Нажать на кнопку: Продолжить",
+      "time" : {
+        "start" : 1630527922537,
+        "stop" : 1630527922931,
+        "duration" : 394
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "buttonName",
+        "value" : "Продолжить"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить отображение сообщения об ошибке: При заполнении данных произошла ошибка",
+      "time" : {
+        "start" : 1630527922931,
+        "stop" : 1630527922985,
+        "duration" : 54
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "textError",
+        "value" : "При заполнении данных произошла ошибка"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить что в ячейке: Мобильный телефон - отображается сообщение: Поле не заполнено.",
+      "time" : {
+        "start" : 1630527922986,
+        "stop" : 1630527923029,
+        "duration" : 43
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitErr",
+        "value" : "Поле не заполнено."
+      }, {
+        "name" : "cellName",
+        "value" : "Мобильный телефон"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить что в ячейке: Электронная почта - отображается сообщение: Поле не заполнено.",
+      "time" : {
+        "start" : 1630527923030,
+        "stop" : 1630527923066,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitErr",
+        "value" : "Поле не заполнено."
+      }, {
+        "name" : "cellName",
+        "value" : "Электронная почта"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    }, {
+      "name" : "Проверить что в ячейке: Повтор электронной почты - отображается сообщение: Поле не заполнено.",
+      "time" : {
+        "start" : 1630527923066,
+        "stop" : 1630527923103,
+        "duration" : 37
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "waitErr",
+        "value" : "Поле не заполнено."
+      }, {
+        "name" : "cellName",
+        "value" : "Повтор электронной почты"
+      } ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 39,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : ""
+  }, {
+    "name" : "testClass",
+    "value" : "Ex3Test"
+  }, {
+    "name" : "testMethod",
+    "value" : "testInsurance"
+  }, {
+    "name" : "suite",
+    "value" : "Ex3Test"
+  }, {
+    "name" : "host",
+    "value" : "NB-03084"
+  }, {
+    "name" : "thread",
+    "value" : "15292@NB-03084.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "154502aa0f67fb1a.json",
+  "parameterValues" : [ ]
+}

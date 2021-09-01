@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "NB-03084",
+    "children" : [ {
+      "name" : "15292@NB-03084.main(1)",
+      "children" : [ {
+        "name" : "testInsurance",
+        "uid" : "154502aa0f67fb1a",
+        "parentUid" : "f4319b558372cbf6a7c3dfc0e9865fab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1630527771749,
+          "stop" : 1630527923109,
+          "duration" : 151360
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f4319b558372cbf6a7c3dfc0e9865fab"
+    } ],
+    "uid" : "9ee7d8d1c303f0ad9020967e5ae1d03b"
+  } ]
+}
